@@ -1,12 +1,9 @@
 import React from "react";
+import Home from "./pages/home";
 import First from "./pages/first";
 import Second from "./pages/second";
 import Third from "./pages/third";
 import { HashRouter, Route, NavLink } from "react-router-dom";
-
-const Home = () => {
-  return <div>home</div>;
-};
 
 const Main = () => {
   return (
@@ -26,7 +23,6 @@ const Main = () => {
         <Route path="/second" component={ Second } />
         <Route path="/third" component={ Third } />
       </HashRouter>
-
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
 
 const First = () => {
-  return <p>First</p>;
+  return <p>first</p>;
 };
 
 export default First;

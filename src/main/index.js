@@ -14,9 +14,7 @@ function createMainWindow() {
     }
   });
 
-  if (isDevelopment) {
-    window.webContents.openDevTools();
-  }
+  window.webContents.openDevTools();
 
   if (isDevelopment) {
     window.loadURL(`http://localhost:${process.env.ELECTRON_WEBPACK_WDS_PORT}`);
